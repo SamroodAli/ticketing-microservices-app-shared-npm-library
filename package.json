@@ -2,7 +2,11 @@
   "name": "@devstoic-learning/ticketing",
   "version": "1.0.1",
   "description": "shared library for the microservice app at https://github.com/SamroodAli/ticketing-microservice-app",
-  "main": "index.js",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
     "clean": "del ./build/*",
     "build": "npm run clean && tsc"
