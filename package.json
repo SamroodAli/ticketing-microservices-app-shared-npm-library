@@ -1,6 +1,6 @@
 {
   "name": "@devstoic-learning/ticketing",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "shared library for the microservice app at https://github.com/SamroodAli/ticketing-microservice-app",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "del ./build/*",
     "build": "npm run clean && tsc",
-    "pub": "git add . && grunt bump-patch && npm run build && npm publish"
+    "pub": "grunt bump-patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "",
