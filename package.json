@@ -4,7 +4,8 @@
   "description": "shared library for the microservice app at https://github.com/SamroodAli/ticketing-microservice-app",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc"
   },
   "keywords": [],
   "author": "",
