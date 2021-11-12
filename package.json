@@ -1,6 +1,6 @@
 {
   "name": "@devstoic-learning/ticketing",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "shared library for the microservice app at https://github.com/SamroodAli/ticketing-microservice-app",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -20,5 +20,13 @@
     "grunt-bump": "^0.8.0",
     "grunt-prompt": "^1.3.3",
     "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@types/cookie-session": "^2.0.43",
+    "@types/jsonwebtoken": "^8.5.5",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1"
   }
 }
