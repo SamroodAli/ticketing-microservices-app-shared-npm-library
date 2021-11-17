@@ -1,6 +1,6 @@
 {
   "name": "@devstoic-learning/ticketing",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "shared library for the microservice app at https://github.com/SamroodAli/ticketing-microservice-app",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -27,6 +27,7 @@
     "cookie-session": "^1.4.0",
     "express": "^4.17.1",
     "express-validator": "^6.13.0",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "node-nats-streaming": "^0.3.2"
   }
 }
